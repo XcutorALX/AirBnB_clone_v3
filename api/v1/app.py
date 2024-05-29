@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""flask"""
+"""Flask app for airbnb clone"""
 from flask import Flask, render_template, jsonify
 from models import storage
 from api.v1.views import app_views
